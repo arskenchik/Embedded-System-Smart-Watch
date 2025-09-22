@@ -63,4 +63,45 @@ The watch integrates step counting, gesture recognition, an OLED user interface,
 
 ---
 
-## Project Structure
+
+---
+
+## How to Build
+1. Install **Segger Embedded Studio** and **nRF5 SDK 17.1.0**.
+2. Clone this repository and place it inside the `examples` folder of the SDK.
+3. Open `main.c` project in SES.
+4. Build and flash to the **Nano 33 BLE Sense**.
+5. On startup, the watch will display a logo, then enter clock mode.
+
+---
+
+## Usage
+- **Swipe Gestures**:
+  - LEFT → Logo  
+  - RIGHT → Clock  
+  - UP → Steps  
+  - DOWN → Invert/Reset
+- **BLE**:
+  - Connect via Nordic nRF Connect app or central device
+  - CTS client will sync time automatically
+- **Steps**:
+  - Walk while wearing, check `"step:XXXX"` on OLED
+
+---
+
+## Validation
+- Step counts tested against commercial smartwatch & manual 500-step counts
+- BLE CTS tested with Nordic nRF Connect app
+- Power profile measured with duty-cycled IMU and OLED auto-off:contentReference[oaicite:4]{index=4}
+
+---
+
+## Contributors
+- Arslan Kenbayev, Abai Sansyzbai  
+
+---
+
+## License
+This project is for academic purposes (EE414 course).  
+Please contact authors before reuse.
+

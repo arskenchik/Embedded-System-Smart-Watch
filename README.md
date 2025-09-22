@@ -2,8 +2,8 @@
 Smart Watch firmware on Arduino Nano 33 BLE Sense using nRF5 SDK and Segger Studio. Features: step counter (LSM accel + OLED), gesture control (APDS-9960 + LEDs), clock/logo modes, BLE CTS time sync, and power-saving (IMU duty cycle, OLED sleep). Built for accuracy, efficiency, and stability.
 # Smart Watch on Nano BLE33
 
-Embedded Systems Final Project (EE414)  
-Team 16 – Abai Sansyzbai and collaborators  
+Embedded Systems Final Project 
+Team 16 – Arslan Kenbayev and Abai Sansyzbai  
 
 ---
 

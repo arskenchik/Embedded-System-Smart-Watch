@@ -13,11 +13,12 @@ The watch integrates step counting, gesture recognition, an OLED user interface,
 
 ---
 
-![image alt]()
+![image alt](https://github.com/arskenchik/Embedded-System-Smart-Watch/blob/main/images/device.png?raw=true)
 
 ![image alt]()
 
 ![image alt]()
+
 ## Features
 - **Step Counter**
   - Adaptive threshold algorithm on LSM accelerometer data

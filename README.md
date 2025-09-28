@@ -17,7 +17,7 @@ The watch integrates step counting, gesture recognition, an OLED user interface,
 
 ![image alt](https://github.com/arskenchik/Embedded-System-Smart-Watch/blob/main/images/pin%20config.png?raw=true)
 
-![image alt]()
+![image alt](https://github.com/arskenchik/Embedded-System-Smart-Watch/blob/main/images/system%20architecture.png?raw=true)
 
 ## Features
 - **Step Counter**
